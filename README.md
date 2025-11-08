@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1091774474.svg)](https://doi.org/10.5281/zenodo.17558138)
+
 This repository contains the code related to the article "Learning solutions of parameterized stiff ODEs using Gaussian processes" written by I. Cortes Garcia, P. Förster, W. Schilders and S. Schöps.
 
 ### Reproducing the results
