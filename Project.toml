@@ -1,0 +1,56 @@
+name = "ODEGaussianProcesses"
+uuid = "265ac0a6-27c4-45f1-8a33-8c04ebe69c99"
+authors = ["Peter Förster"]
+version = "1.0.0"
+
+[deps]
+BracketingNonlinearSolve = "70df07ce-3d50-431d-a3e7-ca6ddb60ac1e"
+DataInterpolations = "82cc6244-b520-54b8-b5a6-8a565e85f1d0"
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+Infiltrator = "5903a43b-9cc3-4c30-8d17-598619ec4e9b"
+Integrals = "de52edbc-65ea-441a-8357-d3a637375a31"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Optimization = "7f7a1694-90dd-40f0-9382-eb1efda571ba"
+OptimizationNLopt = "4e6fcdb7-1186-4e1f-a706-475e75c168bb"
+OptimizationOptimJL = "36348300-93cb-4f02-beb5-3c3902f8871e"
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+[compat]
+Aqua = "0.8.7"
+BracketingNonlinearSolve = "1.1.0"
+DataInterpolations = "6.6.0"
+DelimitedFiles = "1.9.1"
+FiniteDiff = "2.27.0"
+ForwardDiff = "0.10.38"
+Infiltrator = "1.9.2"
+Integrals = "4.5.0"
+LaTeXStrings = "1.4.0"
+LinearAlgebra = "1.11.0"
+Optimization = "3.28.0"
+OptimizationNLopt = "0.2.2"
+OptimizationOptimJL = "0.1.14"
+OrdinaryDiffEq = "6.80.1"
+Plots = "1.40.9"
+Printf = "1.11.0"
+SciMLBase = "2.81.0"
+SpecialFunctions = "2.5.0"
+Statistics = "1.11.0"
+Test = "1.11.0"
+UnicodePlots = "3.7.2"
+julia = "1.11.0"
+
+[extras]
+Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
+FiniteDiff = "6a86dc24-6348-571c-b903-95158fe2bd41"
+LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"
+
+[targets]
+test = ["Aqua", "FiniteDiff", "LaTeXStrings", "Plots", "Test", "UnicodePlots"]
